@@ -31,7 +31,7 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'https://google.com';
+    iframe1.src = 'https://bing.com';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
