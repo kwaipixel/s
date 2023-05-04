@@ -1,4 +1,4 @@
-// UT12 //
+// UT14 //
 function setCookie(name, value, minutes) {
   var expires = "";
   if (minutes) {
