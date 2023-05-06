@@ -1,4 +1,4 @@
-// UT05 //
+// UT07 //
 function setCookie(name, value, minutes) {
   var expires = "";
   if (minutes) {
@@ -32,7 +32,7 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'ikwaibulldog://webview?url=https%3A%2F%2Fincentive.kwai.com%2Fdaily-cash%2Freward%3FgroupId%3D6j2MlePc8PMagoaSDJ94KbdbmcCbquSx8u92yCleJrZZhPY5Io2_gyWBI_nlcw72%26webview%3Dyoda%26showLoading%3Dtrue%26needLogin%3Dtrue%26need_login%3Dtrue%26source%3Dout%26share_channel%3DCOPY_LINK%26hyId%3Dincentive_main%26countryInfo%3DIDN';
+    iframe1.src = 'ikwaibulldog://webview?url=https%3A%2F%2Fincentive.kwai.com%2Fdaily-cash%2Freward%3FgroupId%3DuqixwWI2u8CKPzslNZ4zNXvTUUklJIB34claTlqCtWzzM1E9o16dBctFRzX14h6Y%26webview%3Dyoda%26showLoading%3Dtrue%26needLogin%3Dtrue%26need_login%3Dtrue%26source%3Dout%26share_channel%3DCOPY_LINK%26hyId%3Dincentive_main%26countryInfo%3DIDN';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
