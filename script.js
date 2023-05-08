@@ -1,4 +1,3 @@
-
 // UT05 //
 function setCookie(name, value, minutes) {
   var expires = "";
