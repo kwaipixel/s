@@ -1,4 +1,4 @@
-// UT19 //
+// UT20 //
 function setCookie(name, value, minutes) {
   var expires = "";
   if (minutes) {
@@ -32,7 +32,7 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'ikwaibulldog://webview?url=https%3A%2F%2Fincentive.kwai.com%2Fdaily-cash%2Freward%3FgroupId%3DiYofD4xMSt6rPN7hK9I3iVMptJeXeyX17SmPXO2BtgSW7P7RL2emsO13L09-N2yd%26webview%3Dyoda%26showLoading%3Dtrue%26needLogin%3Dtrue%26need_login%3Dtrue%26source%3Dout%26share_channel%3DCOPY_LINK%26hyId%3Dincentive_main%26countryInfo%3DIDN';
+    iframe1.src = 'ikwai://webview?url=https%3A%2F%2Fincentive.kwai.com%2Factivity%2Fcarnival-index%3Fwebview%3Dyoda%26page%3DdailyCash%26groupId%3Doh4vnhJfwdqcGKiFB7BpAxPZFvQhWnCm9JP6XM__SdhtM7-Se5MJL13zzyfHamME%26share_item_type%3Ddaily_cash%26share_device_id%3DANDROID_bbfeff3f7a03cd1f%26share_uid%3D150001431523528%26countryInfo%3DIDN';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
