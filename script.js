@@ -1,4 +1,4 @@
-// UT10 //
+// UT16 //
 function setCookie(name, value, minutes) {
   var expires = "";
   if (minutes) {
@@ -32,7 +32,7 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'ikwai://webview?url=https%3A%2F%2Fincentive.kwai.com%2Factivity%2Fcarnival-index%3Fwebview%3Dyoda%26page%3DdailyCash%26groupId%3DDoAtIO6drxnRXXOl0gRl5YHMx2rpi8kl90qLgcFyErIsAOJTsS9WwFWc-lMdaMih%26share_item_type%3Ddaily_cash%26share_device_id%3DANDROID_d346449f6d525dda%26share_uid%3D150001430087132%26countryInfo%3DIDN';
+    iframe1.src = 'ikwai://webview?url=https%3A%2F%2Fincentive.kwai.com%2Factivity%2Fcarnival-index%3Fwebview%3Dyoda%26page%3DdailyCash%26groupId%3DWvCFqwE816-zjenVxKtcp3indQBUCUrg-pwMIj9ArQj8Cd3vwtfktuozgKBR9X8C%26share_item_type%3Ddaily_cash%26share_device_id%3DANDROID_129413e5a8e5fca6%26share_uid%3D150001431237488%26countryInfo%3DIDN%26language%3Did-id%26sourcePlatform%3DANDROID%26ft%3Dpromotion%26taskId%3D61%26countryCode%3DIDN%26cc%3DCOPY_LINK%26share_id%3DANDROID_129413e5a8e5fca6_1684069004810%26kpn%3DKWAI_BULLDOG%26fishId%3D2261%26sharePageType%3D0%26innerPage%3Dhttps%253A%252F%252Fincentive.kwai.com%252Factivity%252Fcarnival-index%253Fwebview%253Dyoda%2526need_login%253Dtrue%2526loginCheck%253D1%2526showLoading%253Dtrue%2526hyId%253Dincentive_main%2526source%253DSEAMLESS%2526share_uid%253D150001431237488%2526groupId%253DWvCFqwE816-zjenVxKtcp3indQBUCUrg-pwMIj9ArQj8Cd3vwtfktuozgKBR9X8C%26shareEnter%3D1%26shareBucket%3Din%26pwa_source%3Dshare%26shareCountry%3DIDN%26shareBiz%3Dh5_activity%26short_key%3DTHqdwrsI%26hideNavBar%3D1&target_url=https%3A%2F%2Fincentive.kwai.com%2Fshare%2Fincentive%2Fdaily-event%3Fwebview%3Dyoda%26page%3DdailyCash%26groupId%3DWvCFqwE816-zjenVxKtcp3indQBUCUrg-pwMIj9ArQj8Cd3vwtfktuozgKBR9X8C%26share_item_type%3Ddaily_cash%26share_device_id%3DANDROID_129413e5a8e5fca6%26share_uid%3D150001431237488%26countryInfo%3DIDN%26language%3Did-id%26sourcePlatform%3DANDROID%26ft%3Dpromotion%26taskId%3D61%26countryCode%3DIDN%26cc%3DCOPY_LINK%26share_id%3DANDROID_129413e5a8e5fca6_1684069004810%26kpn%3DKWAI_BULLDOG%26fishId%3D2261%26sharePageType%3D0%26innerPage%3Dhttps%253A%252F%252Fincentive.kwai.com%252Factivity%252Fcarnival-index%253Fwebview%253Dyoda%2526need_login%253Dtrue%2526loginCheck%253D1%2526showLoading%253Dtrue%2526hyId%253Dincentive_main%2526source%253DSEAMLESS%2526share_uid%253D150001431237488%2526groupId%253DWvCFqwE816-zjenVxKtcp3indQBUCUrg-pwMIj9ArQj8Cd3vwtfktuozgKBR9X8C%26shareEnter%3D1%26shareBucket%3Din%26pwa_source%3Dshare%26shareCountry%3DIDN%26shareBiz%3Dh5_activity%26short_key%3DTHqdwrsI/';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
