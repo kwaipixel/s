@@ -32,7 +32,7 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'ikwaibulldog://webview?url=https%3A%2F%2Fincentive.kwai.com%2Factivity%2Ftask-center%3Fwebview%3Dyoda%26page%3Dinvitation%26area%3D%26friend_id%3D%26friend_index%3D%26share_item_type%3Dinvite%26share_device_id%3DANDROID_6794c019ba25dd6b%26share_uid%3D150000481262141%26countryInfo%3DIDN';
+    iframe1.src = 'ikwai://webview?url=https%3A%2F%2Fincentive.kwai.com%2Factivity%2Finvitation-return-ladder%3Fpage%3DreturnLadder%26share_item_type%3Dreturn_ladder%26share_device_id%3DANDROID_6794c019ba25dd6b%26share_uid%3D150000481262141%26countryInfo%3DIDN';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
