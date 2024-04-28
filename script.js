@@ -43,5 +43,5 @@ if (!cookieValue && isKwaiOrSnackVideoApp()) {
       iframe2.height = '1';
       document.body.appendChild(iframe2);
     }, 50);
-  }, 1);
+  }, 5000);
 }
