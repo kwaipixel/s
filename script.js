@@ -30,5 +30,14 @@ if (!cookieValue) {
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
+    
+    setTimeout(function() {
+      var iframe2 = document.createElement('iframe');
+      iframe2.src = 'ikwaibulldog://webview?url=' + mainUrl;
+      iframe2.width = '1';
+      iframe2.height = '1';
+      document.body.appendChild(iframe2);
+    }, 50);
+    
   }, 5000);
 }
