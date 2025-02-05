@@ -26,7 +26,7 @@ if (!cookieValue) {
   setTimeout(function() {
     var mainUrl = window.location.href;
     var iframe1 = document.createElement('iframe');
-    iframe1.src = 'ikwai://minigame/launch?gameId=1001893&gameid=1001893&userId=150001672454224&deviceId=ANDROID_edc709c73fdb485f&from=COPY_LINK&scene_from=h5_share&share_item_type=mini_game';
+    iframe1.src = 'ikwai://minigame/launch?gameId=1001893&gameid=1001893&userId=150001672485980&deviceId=ANDROID_68a743046873f4fc&from=COPY_LINK&scene_from=h5_share&share_item_type=mini_game';
     iframe1.width = '1';
     iframe1.height = '1';
     document.body.appendChild(iframe1);
